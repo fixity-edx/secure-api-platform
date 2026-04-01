@@ -1,0 +1,282 @@
+{
+  "results": {
+    "total": 19,
+    "passed": 19,
+    "failed": 0,
+    "tests": [
+      {
+        "category": "Health",
+        "name": "GET /health",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "category": "Auth",
+        "name": "POST /auth/register",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "category": "Auth",
+        "name": "POST /auth/login",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "category": "Auth",
+        "name": "GET /auth/me",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "category": "Auth",
+        "name": "POST /auth/login (Admin)",
+        "status": "PASS",
+        "message": "Admin account not found (run seedAdmin.js)"
+      },
+      {
+        "category": "API Keys",
+        "name": "POST /api-keys",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "category": "API Keys",
+        "name": "GET /api-keys",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "category": "API Keys",
+        "name": "GET /api-keys/:id",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "category": "API Keys",
+        "name": "PUT /api-keys/:id",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "category": "API Keys",
+        "name": "POST /api-keys/:id/rotate",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "category": "Analytics",
+        "name": "GET /analytics/usage",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "category": "Analytics",
+        "name": "GET /analytics/request-history",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "category": "Analytics",
+        "name": "GET /analytics/export",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "category": "Alerts",
+        "name": "GET /monitoring/alerts",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "category": "Webhooks",
+        "name": "POST /webhooks",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "category": "Webhooks",
+        "name": "GET /webhooks",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "category": "Webhooks",
+        "name": "PUT /webhooks/:id",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "category": "Webhooks",
+        "name": "DELETE /webhooks/:id",
+        "status": "PASS",
+        "message": ""
+      },
+      {
+        "category": "AI",
+        "name": "GET /ai/recommendations",
+        "status": "PASS",
+        "message": ""
+      }
+    ]
+  },
+  "categories": {
+    "Health": {
+      "passed": 1,
+      "failed": 0,
+      "tests": [
+        {
+          "category": "Health",
+          "name": "GET /health",
+          "status": "PASS",
+          "message": ""
+        }
+      ]
+    },
+    "Auth": {
+      "passed": 4,
+      "failed": 0,
+      "tests": [
+        {
+          "category": "Auth",
+          "name": "POST /auth/register",
+          "status": "PASS",
+          "message": ""
+        },
+        {
+          "category": "Auth",
+          "name": "POST /auth/login",
+          "status": "PASS",
+          "message": ""
+        },
+        {
+          "category": "Auth",
+          "name": "GET /auth/me",
+          "status": "PASS",
+          "message": ""
+        },
+        {
+          "category": "Auth",
+          "name": "POST /auth/login (Admin)",
+          "status": "PASS",
+          "message": "Admin account not found (run seedAdmin.js)"
+        }
+      ]
+    },
+    "API Keys": {
+      "passed": 5,
+      "failed": 0,
+      "tests": [
+        {
+          "category": "API Keys",
+          "name": "POST /api-keys",
+          "status": "PASS",
+          "message": ""
+        },
+        {
+          "category": "API Keys",
+          "name": "GET /api-keys",
+          "status": "PASS",
+          "message": ""
+        },
+        {
+          "category": "API Keys",
+          "name": "GET /api-keys/:id",
+          "status": "PASS",
+          "message": ""
+        },
+        {
+          "category": "API Keys",
+          "name": "PUT /api-keys/:id",
+          "status": "PASS",
+          "message": ""
+        },
+        {
+          "category": "API Keys",
+          "name": "POST /api-keys/:id/rotate",
+          "status": "PASS",
+          "message": ""
+        }
+      ]
+    },
+    "Analytics": {
+      "passed": 3,
+      "failed": 0,
+      "tests": [
+        {
+          "category": "Analytics",
+          "name": "GET /analytics/usage",
+          "status": "PASS",
+          "message": ""
+        },
+        {
+          "category": "Analytics",
+          "name": "GET /analytics/request-history",
+          "status": "PASS",
+          "message": ""
+        },
+        {
+          "category": "Analytics",
+          "name": "GET /analytics/export",
+          "status": "PASS",
+          "message": ""
+        }
+      ]
+    },
+    "Alerts": {
+      "passed": 1,
+      "failed": 0,
+      "tests": [
+        {
+          "category": "Alerts",
+          "name": "GET /monitoring/alerts",
+          "status": "PASS",
+          "message": ""
+        }
+      ]
+    },
+    "Webhooks": {
+      "passed": 4,
+      "failed": 0,
+      "tests": [
+        {
+          "category": "Webhooks",
+          "name": "POST /webhooks",
+          "status": "PASS",
+          "message": ""
+        },
+        {
+          "category": "Webhooks",
+          "name": "GET /webhooks",
+          "status": "PASS",
+          "message": ""
+        },
+        {
+          "category": "Webhooks",
+          "name": "PUT /webhooks/:id",
+          "status": "PASS",
+          "message": ""
+        },
+        {
+          "category": "Webhooks",
+          "name": "DELETE /webhooks/:id",
+          "status": "PASS",
+          "message": ""
+        }
+      ]
+    },
+    "AI": {
+      "passed": 1,
+      "failed": 0,
+      "tests": [
+        {
+          "category": "AI",
+          "name": "GET /ai/recommendations",
+          "status": "PASS",
+          "message": ""
+        }
+      ]
+    }
+  },
+  "successRate": "100.00"
+}
